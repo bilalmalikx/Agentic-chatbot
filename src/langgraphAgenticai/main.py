@@ -26,7 +26,7 @@ def load_langgraph_agenticai_app():
     if user_message:
         try:
             ## Configure The LLM's
-            obj_llm_config=OpenAILLM(user_contols_input=user_input)
+            obj_llm_config=OpenAILLM(user_controls_input=user_input)
             model=obj_llm_config.get_llm_model()
 
             if not model:
