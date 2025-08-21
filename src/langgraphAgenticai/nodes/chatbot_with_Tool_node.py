@@ -1,4 +1,4 @@
-from src.langgraphAgenticai.state.state import State
+from src.langgraphagenticai.state.state import State
 
 class ChatbotWithToolNode:
     """
